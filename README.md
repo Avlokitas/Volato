@@ -8,75 +8,75 @@ Volato = Volatility + Portfolio
 
 ## Key Features
 
-**Efficient Frontier Visualization:**
+- **Efficient Frontier Visualization:**
  Generate and visualize portfolios across a spectrum of risk-return profiles, highlighting optimal Sharpe ratios.
 
-**Monte Carlo Simulations**
+- **Monte Carlo Simulations**
  Simulate thousands of random portfolios to analyze return distributions, risk, and Sharpe ratios.
 
-**KMeans Clustering on Simulated Portfolios:**
+- **KMeans Clustering on Simulated Portfolios:**
  Identify distinct clusters of portfolio performance and risk using unsupervised machine learning.
 
-**Correlation Heatmaps & Matrices:**
+- **Correlation Heatmaps & Matrices:**
  Visualize inter-asset correlations to support diversification decisions.
 
-**Risk Contribution Analysis:**
+- **Risk Contribution Analysis:**
  Understand how each asset contributes to overall portfolio risk using marginal risk contribution metrics.
 
-**Value at Risk (VaR) & Maximum Drawdown:**
+- **Value at Risk (VaR) & Maximum Drawdown:**
  Quantify downside risk using VaR simulations and historical drawdown analysis.
 
-**Cumulative Portfolio Performance:**
+- **Cumulative Portfolio Performance:**
 Track the compounded performance of the optimized portfolio over time.
 
-**Asset Return Distributions:**
+- **Asset Return Distributions:**
 Compare return distributions for each asset to understand volatility and skewness.
 
-**Dynamic Asset Inclusion:**
+- **Dynamic Asset Inclusion:**
  Add or exclude Real Estate based on user preference to customize asset universes.
 
-**Optimization Summary Report:**
+- **Optimization Summary Report:**
  A detailed breakdown of allocation, return, risk, Sharpe ratio, VaR, and drawdown.
 
-**CSV Report Export**
+- **CSV Report Export**
  Generate and download a comprehensive report with asset weights and portfolio statistics.
 
 ## Technologies and Algorithms Used
 
-Modern Portfolio Theory (MPT)
+- Modern Portfolio Theory (MPT)
 
 Utilized for portfolio optimization using expected returns and covariance matrices.
 
-Mean-Variance Optimization
+- Mean-Variance Optimization
 
 Used to find the portfolio with the maximum Sharpe Ratio or a user-defined target return.
 
-Monte Carlo Simulations
+- Monte Carlo Simulations
 
 1000+ simulated portfolios to build a probabilistic model of performance.
 
-KMeans Clustering (from scikit-learn)
+- KMeans Clustering (from scikit-learn)
 
 Applied to portfolio simulations for pattern recognition and grouping.
 
-Visualization Libraries
+- Visualization Libraries
 
 matplotlib and seaborn for plots (efficient frontier, correlations, drawdowns)
 
-Streamlit for UI and interactive visualization
+- Streamlit for UI and interactive visualization
 
-Statistical Techniques
+- Statistical Techniques
 
-Covariance matrix calculation (annualized)
+- Covariance matrix calculation (annualized)
 
-Risk-adjusted return measures (Sharpe Ratio, VaR)
+- Risk-adjusted return measures (Sharpe Ratio, VaR)
 
-Drawdown analysis from cumulative returns
+- Drawdown analysis from cumulative returns
 
-Data Handling
+- Data Handling
 
-Price normalization and return conversion
+- Price normalization and return conversion
 
-Support for adding assets dynamically based on user input
+- Support for adding assets dynamically based on user input
 
 
