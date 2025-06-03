@@ -8,7 +8,7 @@ Volato = Volatility + Portfolio
 
 ### Key Features
 
-Efficient Frontier Visualization:
+**Efficient Frontier Visualization:**
 Generate and visualize portfolios across a spectrum of risk-return profiles, highlighting optimal Sharpe ratios.
 
 Monte Carlo Simulations
