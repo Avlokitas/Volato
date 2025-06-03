@@ -1,15 +1,14 @@
 # Volato
 
-## Portfolio Optimization Tool
+### Portfolio Optimization Tool
 
 This is a robust, interactive portfolio optimization and analysis tool built using Python and Streamlit. It leverages quantitative finance techniques to help users build an optimal investment portfolio based on risk tolerance and return expectations.
 
 Volato = Volatility + Portfolio
 
-**Key Features**
+### Key Features
 
-Efficient Frontier Visualization
-
+Efficient Frontier Visualization:
 Generate and visualize portfolios across a spectrum of risk-return profiles, highlighting optimal Sharpe ratios.
 
 Monte Carlo Simulations
@@ -52,7 +51,7 @@ CSV Report Export
 
 Generate and download a comprehensive report with asset weights and portfolio statistics.
 
-**Technologies and Algorithms Used**
+## Technologies and Algorithms Used
 
 Modern Portfolio Theory (MPT)
 
