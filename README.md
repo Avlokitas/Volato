@@ -1,55 +1,45 @@
 # Volato
 
-### Portfolio Optimization Tool
+## Portfolio Optimization Tool
 
 This is a robust, interactive portfolio optimization and analysis tool built using Python and Streamlit. It leverages quantitative finance techniques to help users build an optimal investment portfolio based on risk tolerance and return expectations.
 
 Volato = Volatility + Portfolio
 
-### Key Features
+## Key Features
 
 **Efficient Frontier Visualization:**
-Generate and visualize portfolios across a spectrum of risk-return profiles, highlighting optimal Sharpe ratios.
+ Generate and visualize portfolios across a spectrum of risk-return profiles, highlighting optimal Sharpe ratios.
 
-Monte Carlo Simulations
+**Monte Carlo Simulations**
+ Simulate thousands of random portfolios to analyze return distributions, risk, and Sharpe ratios.
 
-Simulate thousands of random portfolios to analyze return distributions, risk, and Sharpe ratios.
+**KMeans Clustering on Simulated Portfolios:**
+ Identify distinct clusters of portfolio performance and risk using unsupervised machine learning.
 
-KMeans Clustering on Simulated Portfolios
+**Correlation Heatmaps & Matrices:**
+ Visualize inter-asset correlations to support diversification decisions.
 
-Identify distinct clusters of portfolio performance and risk using unsupervised machine learning.
+**Risk Contribution Analysis:**
+ Understand how each asset contributes to overall portfolio risk using marginal risk contribution metrics.
 
-Correlation Heatmaps & Matrices
+**Value at Risk (VaR) & Maximum Drawdown:**
+ Quantify downside risk using VaR simulations and historical drawdown analysis.
 
-Visualize inter-asset correlations to support diversification decisions.
-
-Risk Contribution Analysis
-
-Understand how each asset contributes to overall portfolio risk using marginal risk contribution metrics.
-
-Value at Risk (VaR) & Maximum Drawdown
-
-Quantify downside risk using VaR simulations and historical drawdown analysis.
-
-Cumulative Portfolio Performance
-
+**Cumulative Portfolio Performance:**
 Track the compounded performance of the optimized portfolio over time.
 
-Asset Return Distributions
-
+**Asset Return Distributions:**
 Compare return distributions for each asset to understand volatility and skewness.
 
-Dynamic Asset Inclusion
+**Dynamic Asset Inclusion:**
+ Add or exclude Real Estate based on user preference to customize asset universes.
 
-Add or exclude Real Estate based on user preference to customize asset universes.
+**Optimization Summary Report:**
+ A detailed breakdown of allocation, return, risk, Sharpe ratio, VaR, and drawdown.
 
-Optimization Summary Report
-
-A detailed breakdown of allocation, return, risk, Sharpe ratio, VaR, and drawdown.
-
-CSV Report Export
-
-Generate and download a comprehensive report with asset weights and portfolio statistics.
+**CSV Report Export**
+ Generate and download a comprehensive report with asset weights and portfolio statistics.
 
 ## Technologies and Algorithms Used
 
