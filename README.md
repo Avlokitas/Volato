@@ -1,6 +1,6 @@
 # Volato
 
-##Portfolio Optimization Tool**
+## Portfolio Optimization Tool
 
 This is a robust, interactive portfolio optimization and analysis tool built using Python and Streamlit. It leverages quantitative finance techniques to help users build an optimal investment portfolio based on risk tolerance and return expectations.
 
